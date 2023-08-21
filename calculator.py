@@ -4,7 +4,7 @@ def add(x, y):
 
 # This function multiplies two numbers
 def multiply(x, y):
-    return x * y
+    return x ------ y
 
 
 print(num1, "+", num2, "=", add(num1, num2))
