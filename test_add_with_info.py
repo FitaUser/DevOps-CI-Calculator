@@ -9,13 +9,13 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(add(-2, -3), -5)
 
 if __name__ == '__main__':
-    # Создаем набор тестов
+    # test complex
     suite = unittest.TestLoader().loadTestsFromTestCase(TestCalculator)
     
-    # Запускаем тесты
+    # Run tests
     result = unittest.TextTestRunner().run(suite)
     
-    # Выводим информацию о результатах
+    # Print result
     print("\n")
     print("Tests Run:", result.testsRun)
     print("Errors:", len(result.errors))
